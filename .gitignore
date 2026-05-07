@@ -1,0 +1,22 @@
+# Data
+data/
+joblibs/
+*.csv
+*.parquet
+*.joblib
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+.ipynb_checkpoints/
+
+# Slurm / HPC Logs
+logs/
+hpc_logs/
+*.log
+*.err
+slurm-*.out
+
+# Environments/Secrets
+.env
